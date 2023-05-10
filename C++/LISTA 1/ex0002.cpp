@@ -5,6 +5,6 @@ using namespace std;
 int main(){
     setlocale(LC_ALL, "Portuguese");
     double a;
-    cout<<"Informe um número:", cin>>a;
-    cout<<"O número informado foi: "<< a << endl;
+    cout<<"Informe um nï¿½mero:", cin>>a;
+    cout<<"O nï¿½mero informado foi: "<< a << endl;
 }
