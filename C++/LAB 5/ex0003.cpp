@@ -65,7 +65,8 @@ int main()
 		}
 	}
 
-	cout << "O valor a ser pago é igual a:\n"<< custoTotal << "\n\n";
-	
+	cout << "O valor a ser pago é igual a:\n"
+		 << custoTotal << "\n\n";
+
 	return 0;
 }
