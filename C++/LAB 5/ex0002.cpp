@@ -14,12 +14,8 @@ int main(){
 	}
 	}while(true);
 	
-	cout<<" O número "<< num<< " é o escolhido";
+	cout<<" O nï¿½mero "<< num<< " ï¿½ o escolhido";
 	
 	return 0;
-	
-	
-	
-	
 }
 
