@@ -50,22 +50,26 @@ int main()
 
 	cout << "\n\n\n";
 
-	if (area > 100)
-	{
+	if (custoTotal > 75000){
+		if (area > 100){
 		custoTotal = custoTotal - custoTotal * 0.05;
 		cout << "Você garantiu um desconto de 5%\n\n\n";
-
-		if (custoTotal > 75000)
-		{
-			double maisValia, desconto;
-			maisValia = custoTotal - 75000;
-			desconto = maisValia * 0.1;
-			custoTotal = custoTotal - desconto;
-			cout << "Você garantiu um desconto de 10%\n\n\n";
 		}
+
+		double maisValia, desconto;
+		maisValia = custoTotal - 75000;
+		desconto = maisValia * 0.1;
+		custoTotal = custoTotal - desconto;
+		cout << "Você garantiu um desconto de 10% no valor adicional a partir de R$75.000\n";
+
+		}
+
+	else if (area > 100){
+		custoTotal = custoTotal - custoTotal * 0.05;
+		cout << "Você garantiu um desconto de 5%\n\n\n";
 	}
 
-	cout << "O valor a ser pago é igual a:\n"
+	cout << "O valor a ser pago é igual a: R$\n"
 		 << custoTotal << "\n\n";
 
 	return 0;

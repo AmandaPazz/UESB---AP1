@@ -14,9 +14,8 @@ int main()
 		num++;
 	} while (!(num % 3 == 2 && num / 3 == i));
 
-	cout << "O nï¿½mero " << num << " ï¿½ o escolhido";
+	cout << "O número " << num << " é o escolhido";
 
 	return 0;
 }
 
-//teste
