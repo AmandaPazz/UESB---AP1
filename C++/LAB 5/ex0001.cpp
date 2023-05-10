@@ -4,8 +4,9 @@ using namespace std;
 
 int main()
 {
-	int num = -1, i;
 	setlocale(LC_ALL, "Portuguese");
+	int num = -1, i;
+	
 	cin >> i;
 
 	do
@@ -13,7 +14,7 @@ int main()
 		num++;
 	} while (!(num % 3 == 2 && num / 3 == i));
 
-	cout << " O nï¿½mero " << num << " ï¿½ o escolhido";
+	cout << "O número " << num << " é o escolhido";
 
 	return 0;
 }
