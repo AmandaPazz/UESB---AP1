@@ -11,15 +11,15 @@ int main(){
 
     double area, litros, preco, latas;
 
-    cout << "Digite o tamanho da área em metros quadrados: ", cin >> area;
+    cout << "Digite o tamanho da Ã¡rea em metros quadrados: ", cin >> area;
     litros = ceil(area / 3);
     latas = ceil(litros / 18);
     preco = latas * 80;
 
     
-    cout << "O npuemro de latas de tinta é: " << latas << endl;
+    cout << "O nÃºmero de latas de tinta Ã©: " << latas << endl;
     cout<< fixed << setprecision(2);
-    cout << "O preço a ser pago pelas latas de tinta é R$: " << preco << endl;
+    cout << "O preÃ§o a ser pago pelas latas de tinta Ã© R$: " << preco << endl;
 
 
 return 0;
