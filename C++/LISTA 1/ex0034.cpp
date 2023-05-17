@@ -8,6 +8,10 @@ using namespace std;
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
+    
+    int user, password;
+
+    
 
 return 0;
 }
