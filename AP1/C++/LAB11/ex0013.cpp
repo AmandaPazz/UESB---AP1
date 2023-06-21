@@ -5,32 +5,32 @@
 #include <cctype>
 #include <ctime>
 #include <cstdlib>
-#include <windows.h>
 #include <string>
 using namespace std;
 
-int potencia (int, int);
+int regressiva (int);
 
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
 
-    int num1, num2;
+    int num1;
 
     while (true){
-        cin >> num1 >> num2;
-        cout << "\n\n" << potencia(num1, num2);
+        cin >> num1;
+        regressiva(num1);
+        cout<<"\n\n";
     }
 
 return 0;
 }
 
-int potencia (int i, int j){
-    if (j == 0){
-        return 1;
+int regressiva (int n){
+    if (n==0){
+        cout << "0";
+        return 0;
+        
     }
-    else{
-        return i * potencia(i,j-1);
-    }
-
-    }
+    cout << n << " , ";
+    return regressiva(n-1);
+}
