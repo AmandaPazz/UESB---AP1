@@ -4,6 +4,7 @@
         "iomanip": "cpp",
         "random": "cpp",
         "cctype": "cpp",
-        "ctime": "cpp"
+        "ctime": "cpp",
+        "cstdlib": "cpp"
     }
 }
