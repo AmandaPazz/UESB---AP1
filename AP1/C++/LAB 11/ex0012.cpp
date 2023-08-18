@@ -29,7 +29,7 @@ return 0;
 
 int multi (int n, int m){
     if (m==0){
-        cout << "0 = ";
+        cout << "\b\b =  ";
         return 0;
         
     }

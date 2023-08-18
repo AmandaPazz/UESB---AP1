@@ -19,7 +19,8 @@ int main(){
 
     while (true){
         cin >> num1 >> num2;
-        cout << "\n\n" << potencia(num1, num2);
+        cout << num1 << " elevado a " << num2 << " = ";
+        cout << "\b\b\b = " <<  potencia(num1, num2);
     }
 
 return 0;
@@ -30,7 +31,9 @@ int potencia (int i, int j){
         return 1;
     }
     else{
-        return i * potencia(i,j-1);
+        cout << i << " x ";
+        int resp = i * potencia(i,j-1);
+        return resp;
     }
 
     }

@@ -9,7 +9,7 @@
 #include <string>
 using namespace std;
 
-void bubbleSortMelhor (int [], int);
+void bubbleSortMelhor(int[], int);
 
 int main()
 {
@@ -17,7 +17,6 @@ int main()
 
     int n = 10;
     int vetor[n] = {10, 5, 6, 3, 4, 2, 1, 7, 8, 9};
-  
 
     cout << "Itens na ordem normal:\n\n";
     for (int i = 0; i < n - 1; i++)
@@ -26,13 +25,12 @@ int main()
     }
 
     bubbleSortMelhor(vetor, n);
-    
-    return 0;
 
-    
+    return 0;
 }
 
-void bubbleSortMelhor (int v[], int n){
+void bubbleSortMelhor(int v[], int n)
+{
     int temp;
     bool verificar;
 
@@ -51,7 +49,8 @@ void bubbleSortMelhor (int v[], int n){
             }
         }
 
-        if (verificar == false){
+        if (verificar == false)
+        {
             break;
         }
     }
@@ -61,5 +60,4 @@ void bubbleSortMelhor (int v[], int n){
     {
         cout << v[i] << setw(4);
     }
-
 }
