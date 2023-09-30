@@ -1,5 +1,3 @@
-package LISTA4;
-
 import java.util.Scanner;
 
 public class l4ex01 {

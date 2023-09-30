@@ -1,4 +1,3 @@
-package LISTA4;
 
 import java.util.Scanner;
 
