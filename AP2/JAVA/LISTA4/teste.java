@@ -10,18 +10,20 @@ public class teste {
         nome = nome.trim().toLowerCase();
 
         String partes[] = nome.split("\\s+");
-        
+
         String abnt = partes[partes.length - 1].toUpperCase() + ", ";
 
-        for (int i = 0; i < partes.length - 1; i++){
-            char inicial += partes.length
+        for (int i = 0; i < partes.length - 1; i++) {
+            abnt += Character.toUpperCase(partes[i].charAt(0));
 
+            if (i < partes.length - 2) {
+                abnt += ". ";
+            }
         }
 
+        System.out.println("Nome em formato ABNT: " + abnt);
 
-
-
-        System.out.print("\n\n");
         input.close();
+        System.out.println("\n\n");
     }
 }
