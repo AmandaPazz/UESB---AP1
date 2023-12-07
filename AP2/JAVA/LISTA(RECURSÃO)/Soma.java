@@ -5,7 +5,7 @@ class Soma {
         return 0;
        }
 
-       return soma(a, t -1) + a[t-1];
+       return soma(a, t - 1) + a[t-1];
     }
 
     public static void main(String[] args) {

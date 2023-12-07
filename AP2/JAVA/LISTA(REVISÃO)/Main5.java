@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 class Pneus {
     private double preco;
@@ -9,6 +8,13 @@ class Pneus {
         this.preco = preco;
         this.tipo = tipo;
         this.fabricante = fabricante;
+    }
+
+    String gettipo(){
+        return this.tipo;
+    }
+    String getfrabicante(){
+        return this.fabricante;
     }
 
     double getpreco() {
@@ -27,6 +33,13 @@ class Motor {
         this.fabricante = fabricante;
     }
 
+    double getpotencia(){
+        return this.potencia;
+    }
+    String getfrabicante(){
+        return this.fabricante;
+    }
+
     double getpreco() {
         return this.preco;
     }
@@ -41,6 +54,13 @@ class Bancos {
         this.preco = preco;
         this.modelo = modelo;
         this.fabricante = fabricante;
+    }
+
+      String getmoedelo(){
+        return this.modelo;
+    }
+    String getfrabicante(){
+        return this.fabricante;
     }
 
     double getpreco() {
