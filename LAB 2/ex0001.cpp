@@ -9,8 +9,8 @@ int main(){
     char caractere;
     
     while(true){
-    cout<<"Digite um número inteiro: ", cin>>num;
+    cout<<"Digite um nï¿½mero inteiro: ", cin>>num;
     caractere = num;
-    cout<<"O caractere correspondente na tabela ASCII é :"<<caractere<<"\n\n";
+    cout<<"O caractere correspondente na tabela ASCII Ã© :"<<caractere<<"\n\n";
     }
 }
